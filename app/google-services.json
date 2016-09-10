@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "511546696675",
+    "firebase_url": "https://mchat-a1911.firebaseio.com",
+    "project_id": "mchat-a1911",
+    "storage_bucket": "mchat-a1911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511546696675:android:4c7ddfb254ad5815",
+        "android_client_info": {
+          "package_name": "com.example.abhinav.mchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511546696675-3ftahi7o691jqs2thjjoebohelsl6b8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv4RLQG0CuXzt749_SH5cvomOWD5zEVkY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

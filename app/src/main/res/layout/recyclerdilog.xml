@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_tutionfee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:text="Tution Fee"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_libraryfee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tutionfee"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:text="Library Fee"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_computerfee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_libraryfee"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:text="Computer Fee"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_tutionvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/tv_tutionfee"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:text="1500"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_libraryvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_libraryfee"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/tv_libraryfee"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:text="400"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_computervalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_computerfee"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/tv_computerfee"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:text="100"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_computerfee"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:text="Total"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_total"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:text="120"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tv_computerfee"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray"></LinearLayout>
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:text="OK"
+        android:textColor="@android:color/holo_blue_dark" />
+
+</RelativeLayout>

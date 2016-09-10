@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorGreyBackground"
+        android:gravity="center"
+        android:text="3 February 2016"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/Eventname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginLeft="22dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:text="Trip to Bird Santuary"
+        android:textColor="@android:color/black"
+        android:textSize="22dp" />
+    <TextView
+        android:id="@+id/EventDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Eventname"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="15dp"
+        android:text="Trip to Bird Santuary"
+        android:textColor="@android:color/black"
+        android:textSize="12dp" />
+
+
+    <LinearLayout
+        android:id="@+id/BelowEventDesc"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/EventDesc"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal"></LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RecyclerViewlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BelowEventDesc"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/topRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/colorGreyBackground"
+            android:gravity="center"
+            android:text="15 march 2016"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:id="@+id/RecyclerEventname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="10dp"
+            android:text="Trip to Bird Santuary"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/topRecycler"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_recyclerevent"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/RecyclerEventname"
+            android:layout_marginTop="15dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/RecyclerEventsmalldisc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv_recyclerevent"
+            android:layout_marginLeft="22dp"
+            android:text="Trip to Bird Santuary"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/BelowRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/RecyclerViewlayout"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal"></LinearLayout>
+
+</RelativeLayout>
